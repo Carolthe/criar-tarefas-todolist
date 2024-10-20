@@ -1,12 +1,15 @@
 import './App.css'
-import Main from './components/Main'
+import Lista from './components/Lista'
+
+
 
 function App() {
   
 
   return (
     <>
-  <Main />
+<Lista/>
+
     </>
   )
 }

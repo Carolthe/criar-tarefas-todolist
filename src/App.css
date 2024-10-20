@@ -4,3 +4,6 @@
   align-items: center;
   display: grid;
 }
+body{
+  background-color: black;
+}
