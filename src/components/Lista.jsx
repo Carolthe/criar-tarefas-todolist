@@ -22,14 +22,14 @@ export default function Lista() {
       <img className='ml-36' src={Logo} alt="Logo" />
       <div>
         <input
-          className='focus:border-blue-800 w-52 ml-40 p-5 bg-gray-800 rounded-lg text-white max-w-2xl h-[50px] sm:w-screen mt-14'
+          className='focus:border-blue-800 w-52 ml-40 p-5 bg-gray-400 rounded-lg text-white max-w-2xl h-[50px] sm:w-screen mt-14'
           type='text'
           value={tarefaInput}
           onChange={(ev) => setTarefaInput(ev.target.value)}
           placeholder="Digite uma nova tarefa"
         />
         <button
-          className='bg-blue-400 rounded-lg m-2 h-[47px] w-14 text-white'
+          className='bg-blue rounded-lg m-2 h-[47px] w-14 text-white'
           onClick={clickButton}
         >
           Add
@@ -43,7 +43,8 @@ export default function Lista() {
 
       {tarefas.map((task, index) => (
         <div className='flex justify-center' key={index}>
-          <p className='bg-gray-500 w-[400px] h-[50px] justify-between flex p-3 mb-6'>
+          < p className='bg-gray-500 w-[650px] ml-[150px] h-[45px] rounded-lg justify-between flex p-3 mb-6'>
+          <button className='w-5 bg-slate-100 rounded-full' >.</button>
             {task}
             <button onClick={() => apagarTarefa(index)}>X</button>
           </p>
