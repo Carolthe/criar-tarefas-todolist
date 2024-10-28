@@ -36,8 +36,8 @@ export default function Lista() {
         </button>
       </div>
     <div className='flex gap-[400px] ml-36 mb-4 mt-10'>
-        <p className='text-white'>Tarefas Criadas <button>.</button></p>
-        <p className='text-white'>Concluidas<button>.</button></p>
+        <p className='text-white'>Tarefas Criadas <button className='w-4 bg-slate-300 rounded-full text-black'>{tarefas.length}</button></p>
+        <p className='text-white'>Concluidas<button className='w-5 bg-slate-100 rounded-full'>.</button></p>
     </div>
     <hr className='w-[720px] ml-[150px] mb-9'/>
 
