@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#teste{
+
+    color: blueviolet;
+    display: flex;
+    justify-content: left;
+}
+#teste2{
+    display: flex;
+    justify-content: end;
+}
