@@ -4,6 +4,7 @@ import Logo from '../img/Logo.png';
 export default function Lista() {
   const [tarefaInput, setTarefaInput] = useState("");
   const [tarefas, setTarefas] = useState([]);
+  const [somar, setSomar] = useState (0)
 
   function clickButton() {
     if (tarefaInput.trim() !== "") {
@@ -17,6 +18,10 @@ export default function Lista() {
     setTarefas(novasTarefas);
   }
 
+  function teste (){
+    setSomar(somar)
+  }
+
   return (
     <>
       <img className='ml-36' src={Logo} alt="Logo" />
@@ -26,7 +31,7 @@ export default function Lista() {
           type='text'
           value={tarefaInput}
           onChange={(ev) => setTarefaInput(ev.target.value)}
-          placeholder="Digite uma nova tarefa"
+          placeholder="Digite uma nova tarefa..."
         />
         <button
           className='bg-blue rounded-lg m-2 h-[47px] w-14 text-white'
@@ -37,14 +42,14 @@ export default function Lista() {
       </div>
     <div className='flex gap-[400px] ml-36 mb-4 mt-10'>
         <p className='text-white'>Tarefas Criadas <button className='w-4 bg-slate-300 rounded-full text-black'>{tarefas.length}</button></p>
-        <p className='text-white'>Concluidas<button className='w-5 bg-slate-100 rounded-full'>.</button></p>
+        <p className='text-white'>Concluidas<button className='w-5 bg-slate-100 rounded-full text-black'>{teste.length}</button></p>
     </div>
     <hr className='w-[720px] ml-[150px] mb-9'/>
 
       {tarefas.map((task, index) => (
         <div className='flex justify-center' key={index}>
           < p className='bg-gray-500 w-[650px] ml-[150px] h-[45px] rounded-lg justify-between flex p-3 mb-6'>
-          <button className='w-5 bg-slate-100 rounded-full' >.</button>
+          <button onClick={somar} className='w-5 bg-slate-100 rounded-full' ></button>
             {task}
             <button onClick={() => apagarTarefa(index)}>X</button>
           </p>
