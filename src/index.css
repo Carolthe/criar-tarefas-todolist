@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 #teste{
-
-    color: blueviolet;
     display: flex;
     justify-content: left;
 }
