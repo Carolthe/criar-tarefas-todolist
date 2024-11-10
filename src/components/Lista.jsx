@@ -36,7 +36,7 @@ export default function Lista() {
           placeholder="Digite uma nova tarefa..."
         />
         <button
-          className='ml-2 h-10 w-12 rounded-lg bg-sky hover:bg-claro text-white shadow-2xl sm:h-12 sm:w-16'
+          className='ml-2 h-10 w-12 rounded-lg bg-sky text-white shadow-2xl sm:h-12 sm:w-16'
           onClick={clickButton}>
         Criar</button>
       </div>
