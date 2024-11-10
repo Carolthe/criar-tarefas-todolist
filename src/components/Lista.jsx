@@ -48,8 +48,8 @@ export default function Lista() {
       {tarefas.map((task, index) => (
         <div className='flex justify-center' key={index}>
           <div className=' bg-gray-400 text-white flex items-center px-4 w-[650px] ml-[150px] h-[45px] rounded-lg justify-between p-3 mb-6' >
-          <p id="teste" className='gap-3'>
-          <button onClick={somar} className='bg-gray-500 border-2 border-gray-300 w-4 h-4 rounded-full mt-1' ></button>
+          <p id="teste" className='gap-3 line-through'>
+          <button onClick={somar} className='bg-gray-500 border-2 border-sky w-4 h-4 rounded-full mt-1' ></button>
             {task}
         </p>     <button id='teste2' className='' onClick={() => apagarTarefa(index)}><img className='w-6' src={Delete}/></button>
          </div>
