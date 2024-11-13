@@ -32,32 +32,33 @@ export default function Lista() {
   const tarefasConcluidas = tarefas.filter(tarefa => tarefa.concluida).length;
 
   return (
-    <div className='grid  justify-items-center ml-8'>
-      <img className='ml-36' src={Logo} alt="Logo" />
+    <div className='flex flex-col justify-center items-center w-full  '>
+      <img className='w-[36] mb-10' src={Logo} alt="Logo" />
       <div>
         <input
-          className='w-52 ml-40 p-5 bg-gray-400 rounded-lg text-white max-w-2xl h-[50px] sm:w-screen mt-14'
+          className='w-72 px-6 rounded-lg bg-gray-400 shadow-2xl text-white h-10 sm:w-screen max-w-2xl sm:h-12 sm:mt-5'
           type='text'
           value={tarefaInput}
+          maxLength={42}
           onChange={(ev) => setTarefaInput(ev.target.value)}
           placeholder="Digite uma nova tarefa..."
         />
-        <button className='ml-2 h-10 w-12 rounded-lg bg-sky text-white shadow-2xl sm:h-12 sm:w-16' onClick={clickButton}>
+        <button className='ml-2 h-10 w-12 sm:w-[55px] rounded-lg bg-sky hover:bg-claro text-white shadow-2xl sm:h-12 sm:w-16"' onClick={clickButton}>
           Criar
         </button>
       </div>
-      <div className='flex gap-[400px] ml-36 mb-4 mt-10'>
+      <div className='flex sm:gap-[400px] gap-[100px] mb-4 mt-10'>
         <p className='text-sky text-sm font-bold'>
-          Tarefas Criadas <button className='bg-gray-400 text-white w-6 rounded-full'>{tarefas.length}</button>
+          Tarefas Criadas <button className='bg-gray-400 text-white  ml-3 w-6 rounded-full'>{tarefas.length}</button>
         </p>
         <p className='text-purple text-sm font-bold'>
           Concluídas<button className='bg-gray-400 text-white ml-3 w-6 rounded-full'>{tarefasConcluidas}</button>
         </p>
       </div>
-      <hr className='border-gray-400 w-[720px] ml-[150px] mb-9' />
+      <hr className='sm:w-screen sm:max-w-3xl w-80 border-gray-400 mt-2 sm:mb-14' />
       {tarefas.map((task, index) => (
         <div className='flex justify-center' key={index}>
-          <div className='bg-gray-400 text-white flex items-center px-4 w-[650px] ml-[150px] h-[45px] rounded-lg justify-between p-3 mb-6'>
+          <div className='bg-gray-400 text-white flex items-center px-4 w-80 sm:w-screen sm:max-w-2xl rounded-lg justify-between p-3 mt-6'>
             <p className={task.concluida ? 'line-through ' : ''}>
               <button
                 onClick={() => concluirTarefa(index)}
