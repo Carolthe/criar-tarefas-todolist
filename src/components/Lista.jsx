@@ -32,7 +32,8 @@ export default function Lista() {
   const tarefasConcluidas = tarefas.filter(tarefa => tarefa.concluida).length;
 
   return (
-    <div className='flex flex-col justify-center items-center w-full  '>
+    
+    <div className='flex flex-col  justify-center items-center sm:mt-[5%] mt-[22%]'>
       <img className='w-[36] mb-10' src={Logo} alt="Logo" />
       <div>
         <input
@@ -62,7 +63,7 @@ export default function Lista() {
             <p className={task.concluida ? 'line-through ' : ''}>
               <button
                 onClick={() => concluirTarefa(index)}
-                className={task.concluida ? 'bg-gray-500 border-2 border-purple w-4 h-4 mr-2 rounded-full mt-1' : 'bg-gray-500 border-2 border-sky w-4 h-4 mr-2 rounded-full mt-1'}
+                className={task.concluida ? 'bg-gray-500 border-2 border-green-400 w-4 h-4 mr-2 rounded-full mt-1' : 'bg-gray-500 border-2 border-sky w-4 h-4 mr-2 rounded-full mt-1'}
               ></button>
               {task.texto}
             </p>
