@@ -33,7 +33,7 @@ export default function Lista() {
 
   return (
     
-    <div className='flex flex-col  justify-center items-center sm:mt-[5%] mt-[22%]'>
+    <div className='flex flex-col  sm:mb-28 justify-center items-center sm:mt-[5%] mt-[22%]'>
       <img className='w-[36] mb-10' src={Logo} alt="Logo" />
       <div>
         <input
