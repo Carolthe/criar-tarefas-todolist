@@ -40,7 +40,6 @@ export default function Lista() {
           className='w-72 px-6 rounded-lg bg-gray-400 shadow-2xl text-white h-10 sm:w-screen max-w-2xl sm:h-12 sm:mt-5'
           type='text'
           value={tarefaInput}
-          maxLength={42}
           onChange={(ev) => setTarefaInput(ev.target.value)}
           placeholder="Digite uma nova tarefa..."
         />
@@ -59,11 +58,11 @@ export default function Lista() {
       <hr className='sm:w-screen sm:max-w-3xl w-80 border-gray-400 mt-2 sm:mb-14' />
       {tarefas.map((task, index) => (
         <div className='flex justify-center' key={index}>
-          <div className='bg-gray-400 text-white flex items-center px-4 w-80 sm:w-screen sm:max-w-2xl rounded-lg justify-between p-3 mt-6'>
-            <p className={task.concluida ? 'line-through ' : ''}>
+          <div className='bg-gray-400 text-white flex items-center px-4 w-80 sm:w-screen sm:max-w-2xl rounded-lg justify-between p-3 mt-6 break-all '>
+            <p className={task.concluida ? 'line-through decoration-green-400 w-[255px] sm:w-[600px] ' : 'w-[255px] sm:w-[600px] '}>
               <button
                 onClick={() => concluirTarefa(index)}
-                className={task.concluida ? 'bg-gray-500 border-2 border-green-400 w-4 h-4 mr-2 rounded-full mt-1' : 'bg-gray-500 border-2 border-sky w-4 h-4 mr-2 rounded-full mt-1'}
+                className={task.concluida ? 'bg-gray-500 border-2  border-green-400 w-4 h-4 mr-2 rounded-full mt-1' : 'bg-gray-500 border-2 border-sky w-4 h-4 mr-2 rounded-full mt-1'}
               ></button>
               {task.texto}
             </p>
