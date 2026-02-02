@@ -14,6 +14,6 @@ npm run dev
 ```
 # Demostração do projeto:
 
-![Mobile](https://tense-coral-pfbixqskzb.edgeone.app/ChatGPT%20Image%202_02_2026,%2014_27_44.png)
+![Mobile](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927713875755168)
 
-![Desktop](https://far-fuchsia-kg9psa0i6m.edgeone.app/ChatGPT_Image_2_02_2026__15_01_18-removebg-preview.png)
+![Desktop](https://far-fuchsia-kg9psa0i6m.edgeone.app/ChatGPT_Image_2_02_2026__15_01_18-removebg-preview.png](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927603934531777))
