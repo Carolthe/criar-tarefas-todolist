@@ -14,6 +14,6 @@ npm run dev
 ```
 # Demostração do projeto:
 
-![Mobile](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927713875755168)
+![Mobile](https://images-ext-1.discordapp.net/external/Ac0xZpAwXMGnKN6FmeOgeUf4VQ7DVUD7Uj9hGxefSfM/https/res.cloudinary.com/do4p13i1a/image/upload/v1770051583/ChatGPT_Image_2_02_2026_14_27_44_j5r8pz.png?format=webp&quality=lossless&width=839&height=800)
 
-![Desktop](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927603934531777)
+![Desktop](https://images-ext-1.discordapp.net/external/7di75Ec1g1ZHzxJ1Z9_hZGOD0B-YaRTBMRvC8AY3gsY/https/res.cloudinary.com/do4p13i1a/image/upload/v1770051582/ChatGPT_Image_2_02_2026__15_01_18-removebg-preview_uegpue.png?format=webp&quality=lossless&width=901&height=433)
