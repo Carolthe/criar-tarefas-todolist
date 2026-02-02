@@ -1,8 +1,16 @@
-# React + Vite
+# React + TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lista de tarefas responsiva criada em React com TailwindCSS, utilizando spread operator, trim, boolean, useState, useEffect, localStorage, filter, function, const, map, operador ternário e etc.
 
-Currently, two official plugins are available:
+# Passo a passo para clonar e rodar o repositorio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone https://github.com/Carolthe/criar-tarefas-todolist.git
+npm i
+npm run dev
+```
+# Demostração do projeto:
+
+![Mobile](https://tense-coral-pfbixqskzb.edgeone.app/ChatGPT%20Image%202_02_2026,%2014_27_44.png)
+
+![Desktop](https://far-fuchsia-kg9psa0i6m.edgeone.app/ChatGPT_Image_2_02_2026__15_01_18-removebg-preview.png)
