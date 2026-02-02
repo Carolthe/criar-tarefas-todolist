@@ -16,4 +16,4 @@ npm run dev
 
 ![Mobile](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927713875755168)
 
-![Desktop](https://far-fuchsia-kg9psa0i6m.edgeone.app/ChatGPT_Image_2_02_2026__15_01_18-removebg-preview.png](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927603934531777))
+![Desktop](https://discord.com/channels/1360308782558609599/1382747922801758229/1467927603934531777)
