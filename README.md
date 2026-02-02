@@ -2,7 +2,7 @@
 
 Lista de tarefas responsiva criada em React com TailwindCSS, utilizando spread operator, trim, boolean, useState, useEffect, localStorage, filter, function, const, map, operador ternário e etc.
 
-Link do projeto: [projeto](https://lnkd.in/d2fTNhBW)
+Link do projeto: [todolist](https://lnkd.in/d2fTNhBW)
 
 
 # Passo a passo para clonar e rodar o repositorio
